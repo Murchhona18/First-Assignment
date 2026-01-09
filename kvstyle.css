@@ -31,7 +31,7 @@ nav .lists {
     font-weight: 500px;
     cursor: pointer;
 }
-li:hover{
+.lists li:hover{
     background-color: rgb(81, 228, 179);
 }
 .gbtn {
@@ -136,7 +136,7 @@ h2 {
     text-align: center;
     margin-bottom: 16px;
     padding: 24px;
-    box-shadow: 4px 4px 4px 4px #00000016;
+    box-shadow: 0 -4px 10px #00000016;
     gap: 16px;
     border-radius: 8px;
     height: 300px;
@@ -163,3 +163,51 @@ h2 {
 
 }
 
+#solution {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#solution div img{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 120px 30px 120px 120px;
+}
+#solution .solution-container{
+    margin-top: 102px;
+    margin-bottom: 102px;
+    margin-left: 30px;
+    margin-right: 120px;
+    text-align: left;
+
+}
+
+#solution .solution-container p{
+    font-size: 16px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+#solution div .solution-container h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.para{
+font-size: 16px;
+line-height: 20px;
+color: #627382;
+margin: bottom 40px;
+}
+
+.solution-container ul{
+    margin-top: 40px;
+    list-style-image: url('/assets/CheckCircle.png');
+    font-weight: 500px;
+    margin-left: 30px;
+}
+
+.solution-container ul li{
+    margin-bottom: 16px;
+}
