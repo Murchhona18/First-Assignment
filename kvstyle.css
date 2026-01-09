@@ -74,7 +74,7 @@ li:hover{
  }
 
 #banner {
-    background: url("../assets/hero-bg.png");
+    background: url("./assets/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 53px;
@@ -108,4 +108,14 @@ h1 span{
 }
 .banner-content p span{
     display: block;
+}
+#notes {
+    padding-top: 50px;
+    color: #000;       
+}
+
+h2 {
+    display: block;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
