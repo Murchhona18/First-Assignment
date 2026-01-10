@@ -69,9 +69,15 @@ nav .lists {
     padding: 12px 16px;
     margin-bottom: 16px;
 }
+.banner-content .wbtn img{
+    vertical-align: middle;
+}
 
 .banner-content .gbtn img{
 vertical-align: middle;
+}
+.banner-content .tbtn img{
+    vertical-align: middle;
 }
  a{
     text-decoration: none;
@@ -212,6 +218,7 @@ margin: bottom 40px;
     font-weight: 500px;
     margin-left: 30px;
 }
+
 
 .solution-container ul li{
     margin-bottom: 16px;
