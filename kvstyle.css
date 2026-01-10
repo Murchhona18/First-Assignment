@@ -136,9 +136,9 @@ h2 {
     text-align: center;
     margin-bottom: 16px;
     padding: 24px;
-    box-shadow: 0 -4px 10px #00000016;
+    box-shadow: 0 -5px 8px #00000016;
     gap: 16px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px;
     height: 300px;
     width: 330px;
     align-items: center;
@@ -210,4 +210,32 @@ margin: bottom 40px;
 
 .solution-container ul li{
     margin-bottom: 16px;
+}
+
+#think .think-container{
+    margin: 0px 120px 120px 120px;
+    background-color: #F7F6F2;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-radius: 12px;
+}
+.think-container h2{
+    margin: 0px 40px 16px 40px;
+    font-size: 40px;
+}
+.think-container p{
+    color: #627382;
+    font-size: 16px;
+}
+.think-container p span{
+    display: block;
+}
+.think-container button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 2px 2px #00000012;
+}
+.think-container p span .end {
+    margin-bottom: 80px;
 }
