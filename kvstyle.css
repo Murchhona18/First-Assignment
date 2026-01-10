@@ -61,7 +61,7 @@ nav .lists {
 .banner-content .wbtn{
     background-color: white;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500px;
@@ -208,7 +208,7 @@ margin: bottom 40px;
 
 .solution-container ul{
     margin-top: 40px;
-    list-style-image: url('/assets/CheckCircle.png');
+    list-style-image: url('./assets/CheckCircle.png');
     font-weight: 500px;
     margin-left: 30px;
 }
